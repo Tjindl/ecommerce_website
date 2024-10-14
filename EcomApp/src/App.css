@@ -1,0 +1,127 @@
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: #505050;
+}
+.heading {
+    font-size: 50px;
+    color: #505050;
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.5s;
+    font-style: monospace;
+    font-weight: bold;
+}
+
+* {background-color: #fff5c3}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-button {
+  padding: 10px;
+  color: #505050;
+  background-color: #fff5c3;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 17px;
+  margin-right: 10px;
+  transition: background-color 0.5s;
+  text-emphasis: bold;
+  
+}
+
+.nav-button:hover {
+  background-color: lightgray;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.5s;
+} 
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aqua;
+    
+}
+
+.box:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.card-content h2 { 
+    color: #505050;
+    font-size: 25px;
+    font-weight: bold;
+
+    background-color: aqua;
+}
+
+.card-content p {
+  
+  color: #505050;
+  font-size: 15px;
+  font-weight: bold;
+
+
+  background-color: aqua;
+  margin-bottom: 70px;
+}
+
+.card-content button {
+    padding: 10px;
+    color: #505050;
+    background-color: #fff5c3;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 25px;
+    margin-right: 10px;
+    transition: background-color 0.5s;
+    text-emphasis: bold;
+}
